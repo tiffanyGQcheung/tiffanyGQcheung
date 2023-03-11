@@ -1,0 +1,28 @@
+/*comment*/
+
+h1 {color: red;}
+body {
+	font-family: "Georgia", "Calibri", Arial;  /*list of priority of font to use, last one as ultimate choice, better be common*/
+	padding: 30px;} /*border width*/
+
+p {
+	margin: 20px;   /*margin of the box away from other boxes*/
+	padding: 20px;    /*margin of text in the box*/
+	border-style: solid;   /*line style of the bounded box*/ 
+	border-width: 1px;   /*thickness of box line*/
+	text-align: justify;}  /*align the text*/ 
+
+
+#list {color: red}  /*id of specific line of code, cannot have space*/
+
+.first_item {color:blue} /*class of specific group of code, cannot have space, cannot start with number*/
+
+.unorder {font-family: "Comic Sans MS"} /*line of code can belong to multiple classes*/
+
+ol li {background-color: yellow} /*highlight to all ordered list items*/
+
+p > b {color: orange} /*child selector e.g. anything bold in paragragh*/
+
+#order_list:hover{color:#045463} /*apply style only when cursor hover around*/
+
+/*use hex color code*/

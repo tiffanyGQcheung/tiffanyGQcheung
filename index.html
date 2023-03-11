@@ -1,0 +1,76 @@
+<head>
+	<title> title of this page </title>
+	<!-- icon of your webpage-->
+	<link rel = "icon" type = "image/png" href = "resources/web.png"> 
+	<link href = "styles.css" rel = "stylesheet">
+</head>
+<html>
+
+<body>
+
+	<!-- this is a comment: section 1 -->
+	<div>
+		<h1> level 1 header: My Webpage	</h1>
+		
+		<p>
+		this is a paragraph. <br> break the line into different lines, <b> no closing tag </b>
+		</p>
+	
+		<p>			
+		this is the 2nd paragraph, div just divide the code into different sections, not shown on the webpage
+		</p>
+		<hr> 			
+		<p> this is just a normal line
+		so they are on the same line 
+		</p>
+		<p style = "color:red" > red text </p>
+		<p style = "font-size: 20px" > big font sized 20 </p>
+	</div>
+
+	<!-- section 2 -->
+	<div>
+		<h2 id = "list"> level 2 header: list </h2>
+
+		<h3 id = order_list> level 3 header: ordered list </h3>
+		<ol>
+			<li class = "first_item"> 1st item in the ordered list </li>
+			<li> 2nd item, <i> itaclized text </i> </li>
+
+		</ol>
+		<h3> level 3 header: unordered list </h3>
+		<ul>
+			<li class = "first_item unorder"> 1st item in unordered list </li>
+			<li class = "unorder"> every item in the list <b> must </b> be bounded by list tags </li>
+		
+			<ol>
+				<li> starting a new list without ending the last one, the new one will be indended </li>
+				<p> this is an <b> indented </b> paragraph inside an ordered list tag inside an unordered list tag <p>
+				<li> point </li>
+			</ol>
+		</ul>
+	</div>
+
+	<!-- section 3 -->
+	<div>
+	<h2> inserting image </h2>
+	<p> always use relative path: src = "foldername/filename.jpg" other image setting </p>
+	<p> the whole root folder will be uploaded and the directory should only be refering to a relative path in the root folder
+	<br> there is no C-drive in the web! </p>
+	<img src = "resources/emoji.jpg" width = "100px">
+	<img src = "resources/emoji.jpg" height = "200px">
+
+	</div>
+
+	<div>
+	<!-- section 4 -->
+	<h2> inserting hyperlink </h2>
+	<p style = "color: red"> must provide the name of the link for the link to be shown </p>
+	<a href = "https://www.google.com.sg/" > Text show for the link </a>
+		<p> replace display text as image: <p>
+	<a href = "https://emojipedia.org/pile-of-poo/" > <img src = "resources/poop.jpg"> </a>
+	<p> can also link the page to another html page in the root folder: </p>
+	<a href = "anotherpage.html" > link to another html </a>
+	</div>
+</body>
+
+</html>

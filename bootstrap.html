@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+    	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<title>Bootstrap demo</title>
+	<!-- precoded styling e.g. class names-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<!-- precoded JavaScript -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+  <body>
+
+<!-- precoded navigation bar from Bootstrap-->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#"> Customized tab 1 </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"> Customized tab 2 </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Customized tab 3
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+
+<!-- can delete any part that is not needed -->
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a> 
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+	<h1>Table Title</h1>
+	<style>
+		h1 {
+		margin: 10px;
+		padding: 20px;
+		border-style: double;
+		color: green;
+		font-family: Comic Sans MS}
+	</style>
+	<img src = "https://cdn.thenewstack.io/media/2023/01/285d68dd-charts-1024x581.jpg" width = "500px" style = "margin: 10px">
+
+	<p style = "margin: 10px"> <i> type any text here under the table title </i> </p>
+
+	<div class = "container"> <!-- containter orgainizes things in row-column format, we want to make a 3x3 table-->
+	
+		<div class = "row" style = "font-size: 20px">
+			<b>HeaderRow</b>
+		</div>
+
+		<div class = "row">
+			<b>Sub-headerRow1</b>
+		</div>
+
+		<!-- 1st row 3 columns -->
+		<div class = "row">
+			<div class = "col">
+				Col1
+			</div>
+			<div class = "col">
+				Col2
+			</div>
+			<div class = "col">
+				Col3
+			</div>
+		</div> <!--closing off row-->
+
+		<div class = "row">
+			<b>Sub-headerRow2</b>
+		</div>
+
+		<!-- 2nd row 3 columns -->
+		<div class = "row">
+			<div class = "col">
+				Col1
+			</div>
+			<div class = "col">
+				Col2
+			</div>
+			<div class = "col">
+				Col3
+			</div>
+		</div> <!--closing off row-->
+
+		<div class = "row">
+			<b>Sub-headerRow3</b>
+		</div>
+
+		<!-- 3rd row 3 columns -->
+		<div class = "row">
+			<div class = "col">
+				Col1
+			</div>
+			<div class = "col">
+				Col2
+			</div>
+			<div class = "col">
+				Col3
+			</div>
+		</div> <!--closing off row-->
+
+	</div> <!--closing off container-->
+
+
+
+
+</body>
+</html>
